@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+@theme {
+  --color-default-purple: #6a4c9c;
+}
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --button-text: #ffffff;
+}
+
+[data-theme="dark"] {
+  --bg-color: #333;
+  --text-color: #ffffff;
+  --button-text: #ffffff;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}

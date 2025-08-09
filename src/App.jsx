@@ -1,10 +1,12 @@
 import "./App.css";
+import LanguageSwitch from "./components/common/LanguageSwitch";
+import Header from "./components/sections/Header";
 
 function App() {
   return (
-    <>
-      <h1 className="text-4xl text-red-700 font-extrabold">Teste Tailwind</h1>
-    </>
+    <div>
+      <LanguageSwitch />
+    </div>
   );
 }
 
