@@ -1,7 +1,12 @@
+@font-face {
+  font-family: Raleway;
+  src: url("./assets/fonts/Raleway-Regular.ttf");
+}
+
 @import "tailwindcss";
 
 @theme {
-  --color-default-purple: #6a4c9c;
+  --font-raleway: Raleway;
 }
 
 :root {
