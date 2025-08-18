@@ -1,16 +1,28 @@
-import { useLanguage } from "../../context/LanguageContext";
+import React, { useState } from "react";
 
 const LanguageSwitch = () => {
-  return (
-    <button
-      className={`relative w-32 h-14 flex items-center px-2 rounded-full bg-gradient-to-r from-blue-500 to-blue-700 shadow-xl hover:cursor-pointer transition-all duration-300`}
-    >
-      <div
-        className={`absolute left-2 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-black rounded-full flex items-center justify-center transition-all duration-500 `}
-      ></div>
+  const [isEN, setIsEN] = useState(true);
 
-      <div className="flex w-full justify-between items-center px-5 text-white font-semibold"></div>
-    </button>
+  const toggleLanguage = () => {
+    setIsEN(!isEN);
+  };
+
+  return (
+    <div
+      className="relative w-[121px] h-7 bg-white rounded-full shadow-[inset_0_6px_8px_3px_rgba(0,0,0,0.1)] flex items-center cursor-pointer overflow-hidden"
+      onClick={toggleLanguage}
+    >
+      <div className="flex w-full z-10 text-black font-medium text-sm">
+        <div className="w-[60.5px] text-center">EN</div>
+        <div className="w-[60.5px] text-center">PT</div>
+      </div>
+
+      <div
+        className={`absolute top-0 left-0 w-[65px] h-7 bg-[#EFEFEF] rounded-full shadow-[inset_0_6px_8px_3px_rgba(0,0,0,0.1)] transition-transform duration-300 ease-in-out ${
+          !isEN ? "translate-x-[56px]" : "translate-x-0"
+        }`}
+      ></div>
+    </div>
   );
 };
 
