@@ -7,6 +7,10 @@
 
 @theme {
   --font-raleway: Raleway;
+
+  --breakpoint-sm: 393px;
+  --breakpoint-md: 834px;
+  --breakpoint-lg: 1440px;
 }
 
 :root {
