@@ -8,12 +8,9 @@ const Header = () => {
       <div className="flex flex-row items-center justify-between py-9 md:py-12">
         <LanguageSwitch />
 
-        {/* Lado direito */}
         <div className="flex flex-row items-center gap-12">
-          {/* Sempre visível */}
           <ThemeSwitch />
 
-          {/* Só aparece em telas grandes */}
           <div className="hidden lg:flex">
             <HamburguerMenu />
           </div>

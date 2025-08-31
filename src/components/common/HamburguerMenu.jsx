@@ -10,7 +10,6 @@ const HamburgerMenu = () => {
 
   return (
     <div className="flex items-center relative">
-      {/* Menu inline, que empurra o ThemeSwitch */}
       <AnimatePresence initial={false}>
         {isOpen && (
           <motion.nav
@@ -60,7 +59,6 @@ const HamburgerMenu = () => {
         )}
       </AnimatePresence>
 
-      {/* Botão hamburguer */}
       <button
         onClick={toggleMenu}
         className="relative w-8 h-8 flex flex-col justify-center items-center space-y-1 z-20 cursor-pointer"
