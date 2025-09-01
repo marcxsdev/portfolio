@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/sections/Header";
 import Introduction from "./components/sections/Introduction";
 import Skills from "./components/sections/Skills";
-import ExperienceCard from "./components/ui/ExperienceCard";
+import Experiences from "./components/sections/Experiences";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Introduction />
       <Skills />
-      <ExperienceCard />
+      <Experiences />
     </div>
   );
 }

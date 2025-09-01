@@ -10,9 +10,9 @@ export const experiences = [
   {
     logo: "/images/companies/freelancer.png",
     company: "Freelancer",
-    role: "Desenvolvedor Web",
+    role: "Web Developer",
     description:
       "Working as a freelance developer, focusing on performance, modern design, and usability.",
-    tags: ["Next.js", "React", "TailwindCSS", "Node.js"],
+    tags: ["Next.js", "React", "TailwindCSS", "Node"],
   },
 ];
