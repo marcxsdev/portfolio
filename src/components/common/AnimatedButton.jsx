@@ -16,7 +16,7 @@ const AnimatedButton = ({
   useEffect(() => {
     const checkDeviceType = () => {
       const width = window.innerWidth;
-      setIsMobile(width < 940);
+      setIsMobile(width < 1024);
       setIsSmallMobile(width < 634);
     };
 
