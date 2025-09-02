@@ -1,6 +1,6 @@
 const ExperienceCard = ({ logo, company, role, description, tags }) => {
   return (
-    <div className="relative w-[333px] h-[470px] rounded-xl border border-black/20 bg-white lg:w-[390px] lg:h-[470px] overflow-hidden">
+    <div className="relative w-[333px] h-[470px] rounded-xl border border-black/20 lg:w-[390px] lg:h-[470px] overflow-hidden">
       <div className="w-full h-[235px] overflow-hidden">
         <img
           src={logo}
@@ -20,7 +20,7 @@ const ExperienceCard = ({ logo, company, role, description, tags }) => {
             </h4>
           </div>
 
-          <p className="text-[#333] font-raleway text-sm leading-5">
+          <p className="text-[#666] font-raleway text-sm leading-5 font-medium">
             {description}
           </p>
         </div>

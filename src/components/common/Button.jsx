@@ -3,7 +3,7 @@ const Button = ({ children, href, icon, className }) => {
     <a
       href={href}
       target="_blank"
-      className={`flex flex-row justify-center items-center gap-5 bg-[#6A4C9C] hover:bg-[#5C4189] transition-colors duration-200 ${className}`}
+      className={`flex flex-row justify-center items-center gap-5 cursor-pointer bg-[#6A4C9C] hover:bg-[#5C4189] transition-colors duration-200 ${className}`}
     >
       <span className="text-white font-raleway text-base font-semibold">
         {children}
