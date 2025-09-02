@@ -1,16 +1,16 @@
 export const projects = [
   {
-    image: "/images/projects/myndsync-project.png",
+    image: "/images/projects/mindsync-project.png",
     title: "MindSync",
-    decriptionMobile: "Lorem",
+    descriptionMobile: "Lorem",
     descriptionFull: "lorem",
-    repolink: "https://github.com/marcxsdev/mindsync",
+    repoLink: "https://github.com/marcxsdev/mindsync",
   },
   {
     image: "/images/projects/reicell-project.png",
     title: "Reicell Celular",
-    decriptionMobile: "Lorem",
+    descriptionMobile: "Lorem",
     descriptionFull: "lorem",
-    repolink: "https://github.com/marcxsdev/reicell-landing-page",
+    repoLink: "https://github.com/marcxsdev/reicell-landing-page",
   },
 ];
