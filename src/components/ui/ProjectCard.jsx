@@ -18,7 +18,7 @@ const ProjectCard = ({
         />
       </div>
 
-      <div className="flex flex-col justify-between">
+      <div className="flex flex-col justify-between flex-1">
         <div className="flex flex-col px-6 pt-6 md:gap-6 md:pl-6 md:pr-14 md:pt-16">
           <h3 className="text-black font-raleway text-[26px] font-bold md:text-4xl">
             {title}
