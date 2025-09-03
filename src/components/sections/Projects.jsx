@@ -6,7 +6,7 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(0);
 
   return (
-    <section className="flex flex-col items-center">
+    <section className="flex flex-col items-center py-14">
       <h2 className="text-black font-raleway text-[52px] font-extrabold text-center py-5 md:text-6xl md:py-8">
         Projects
       </h2>

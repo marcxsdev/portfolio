@@ -9,7 +9,7 @@ const ProjectCard = ({
   repoLink,
 }) => {
   return (
-    <div className="flex flex-col md:flex-row-reverse w-73 md:w-[684px] lg:w-[720px] rounded-xl border border-black/20 overflow-hidden my-16">
+    <div className="flex flex-col md:flex-row-reverse w-73 md:w-[684px] lg:w-[720px] rounded-xl border border-black/20 overflow-hidden mb-10 lg:my-0">
       <div className="flex-none w-full h-75 md:w-[310px] md:h-[570px] lg:w-[344px] lg:h-[600px] overflow-hidden flex justify-center items-center">
         <img
           src={image}

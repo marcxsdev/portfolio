@@ -44,7 +44,7 @@ const HamburgerMenu = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.2, duration: 0.3 }}
             >
-              Personal Projects
+              Projects
             </motion.a>
             <motion.a
               href="#contact"

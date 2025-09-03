@@ -2,7 +2,7 @@ import Button from "../common/Button";
 
 const GetInTouch = () => {
   return (
-    <section className="mx-7.5">
+    <section className="mx-7.5 pb-14">
       <h2 className="text-black font-raleway text-[52px] font-extrabold text-center py-5 md:text-6xl md:py-8">
         Get In Touch
       </h2>
