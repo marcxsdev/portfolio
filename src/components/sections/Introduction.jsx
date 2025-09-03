@@ -1,5 +1,3 @@
-// Introduction.jsx
-
 import AnimatedContactButtons from "../common/AnimatedButton";
 
 const Introduction = () => {

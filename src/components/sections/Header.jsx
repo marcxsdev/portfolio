@@ -1,5 +1,3 @@
-// Header.jsx
-
 import LanguageSwitch from "../common/LanguageSwitch";
 import ThemeSwitch from "../common/ThemeSwitch";
 import HamburguerMenu from "../common/HamburguerMenu";
