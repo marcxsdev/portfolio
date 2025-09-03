@@ -2,7 +2,7 @@ import AnimatedContactButtons from "../common/AnimatedButton";
 
 const Introduction = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-between items-center mx-[30px] md:mx-[75px] gap-8 lg:max-w-[1440px] lg:mx-auto lg:w-full">
+    <div className="flex flex-col lg:flex-row justify-between items-center mx-7.5 md:mx-[75px] gap-8 lg:max-w-[1440px] lg:mx-auto lg:w-full">
       <div className="text-center lg:text-left max-w-[540px]">
         <h1 className="text-black font-raleway text-[52px] lg:text-[64px] font-extrabold leading-tight">
           Hi, I’m <br className="lg:hidden" />
