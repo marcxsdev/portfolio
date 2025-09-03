@@ -11,9 +11,13 @@ const Introduction = () => {
               <span className="text-[#6A4C9C]">Marcos</span> 🌑
             </h1>
             <p className="text-black font-ibmplex text-base lg:text-lg leading-6 py-7 lg:py-6">
-              Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua.
+              Sou um
+              <span className="text-[#6A4C9C] font-bold">
+                Desenvolvedor full-stack
+              </span>
+              apaixonado por criar experiências digitais marcantes. Fique à
+              vontade para explorar meus projetos e a jornada que me trouxe até
+              aqui.
             </p>
             <div className="flex justify-center items-center lg:block">
               <AnimatedContactButtons />
