@@ -4,6 +4,16 @@ import { motion, AnimatePresence } from "framer-motion";
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleScrollToSection = (sectionId) => {
+    setIsOpen(false);
+
+    const section = document.getElementById(sectionId);
+
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -20,8 +30,8 @@ const HamburgerMenu = () => {
             transition={{ duration: 0.4, ease: "easeOut" }}
           >
             <motion.a
-              href="#skills"
-              className="text-black uppercase font-raleway text-base font-normal transition-colors duration-200 ease-in-out hover:text-gray-700"
+              onClick={() => handleScrollToSection("skills")}
+              className="text-black uppercase font-raleway text-base font-normal cursor-pointer transition-colors duration-200 ease-in-out hover:text-gray-700"
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.1, duration: 0.3 }}
@@ -29,8 +39,8 @@ const HamburgerMenu = () => {
               Skills
             </motion.a>
             <motion.a
-              href="#experiences"
-              className="text-black uppercase font-raleway text-base font-normal transition-colors duration-200 ease-in-out hover:text-gray-700"
+              onClick={() => handleScrollToSection("experiences")}
+              className="text-black uppercase font-raleway text-base font-normal cursor-pointer transition-colors duration-200 ease-in-out hover:text-gray-700"
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.15, duration: 0.3 }}
@@ -38,8 +48,8 @@ const HamburgerMenu = () => {
               Experiences
             </motion.a>
             <motion.a
-              href="#projects"
-              className="text-black uppercase font-raleway text-base font-normal transition-colors duration-200 ease-in-out hover:text-gray-700"
+              onClick={() => handleScrollToSection("projects")}
+              className="text-black uppercase font-raleway text-base font-normal cursor-pointer transition-colors duration-200 ease-in-out hover:text-gray-700"
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.2, duration: 0.3 }}
@@ -47,8 +57,8 @@ const HamburgerMenu = () => {
               Projects
             </motion.a>
             <motion.a
-              href="#contact"
-              className="text-black uppercase font-raleway text-base font-normal transition-colors duration-200 ease-in-out hover:text-gray-700"
+              onClick={() => handleScrollToSection("contact")}
+              className="text-black uppercase font-raleway text-base font-normal cursor-pointer transition-colors duration-200 ease-in-out hover:text-gray-700"
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.25, duration: 0.3 }}
