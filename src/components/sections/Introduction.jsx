@@ -1,4 +1,5 @@
 import AnimatedContactButtons from "../common/AnimatedButton";
+import { ReactTyped } from "react-typed";
 
 const Introduction = () => {
   return (
@@ -11,13 +12,12 @@ const Introduction = () => {
               <span className="text-[#6A4C9C]">Marcos</span> 🌑
             </h1>
             <p className="text-black font-ibmplex text-base lg:text-lg leading-6 py-7 lg:py-6">
-              Sou um
+              I'm a{" "}
               <span className="text-[#6A4C9C] font-bold">
-                Desenvolvedor full-stack
-              </span>
-              apaixonado por criar experiências digitais marcantes. Fique à
-              vontade para explorar meus projetos e a jornada que me trouxe até
-              aqui.
+                full-stack developer
+              </span>{" "}
+              passionate about creating remarkable digital experiences. Feel
+              free to explore my projects and the journey that brought me here.
             </p>
             <div className="flex justify-center items-center lg:block">
               <AnimatedContactButtons />

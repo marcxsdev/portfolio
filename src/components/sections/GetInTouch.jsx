@@ -8,8 +8,10 @@ const GetInTouch = () => {
       </h2>
 
       <p className="text-black text-center font-raleway text-base font-medium leading-6 md:text-xl">
-        Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-        do eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+        Let's create something amazing together! I'm always looking for new
+        challenges and opportunities to collaborate on innovative projects. If
+        you have an idea or just want to share your experience, feel free to get
+        in touch.
       </p>
 
       <div className="flex justify-center items-center mt-8.5">
